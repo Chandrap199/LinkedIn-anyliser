@@ -30,7 +30,7 @@ if st.button("Analyze Profile", type="primary"):
                 genai.configure(api_key=api_key)
                 
                 # We use Gemini 1.5 Pro for complex structured output
-                model = genai.GenerativeModel('gemini-1.5-pro') 
+                model = genai.GenerativeModel('gemini-3.5-flash') 
                 
                 # The Master Prompt
                 prompt = f"""
